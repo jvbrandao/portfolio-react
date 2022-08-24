@@ -26,7 +26,7 @@ const Home = () => {
         <TextosHome>
           <TituloHome>Olá, Sou João Brandão</TituloHome>
           <SubtituloHome>Desenvolvedor Python e JS.</SubtituloHome>
-          <ParagrafoHome>Bem-vindo ao meu mundo.</ParagrafoHome>
+          <ParagrafoHome>{'<  Hello World!  />'}</ParagrafoHome>
         </TextosHome>
         <ContainerImgHome>
           <ImagemHome src={bonecoOla} alt="bonecoOla" />
