@@ -7,8 +7,6 @@ require("dotenv").config();
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const nodemailer = require("nodemailer");
-var smtpTransport = require('nodemailer-smtp-transport');
-
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
